@@ -25,6 +25,7 @@ pip-log.txt
 .coverage
 .tox
 nosetests.xml
+.testrepository
 
 # Translations
 *.mo
@@ -39,4 +40,8 @@ output/*.html
 output/*/index.html
 
 # Sphinx
-docs/_build
+doc/build
+
+# pbr generates these
+AUTHORS
+ChangeLog

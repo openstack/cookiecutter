@@ -1,5 +1,6 @@
-include AUTHORS.rst
-include CONTRIBUTING.rst
-include HISTORY.rst
-include LICENSE
-include README.rst
+include AUTHORS
+include ChangeLog
+exclude .gitignore
+exclude .gitreview
+
+global-exclude *.pyc
