@@ -1,0 +1,7 @@
+[run]
+branch = True
+source = {{cookiecutter.repo_name}}
+omit = {{cookiecutter.repo_name}}/tests/*,{{cookiecutter.repo_name}}/openstack/*
+
+[report]
+ignore-errors = True
