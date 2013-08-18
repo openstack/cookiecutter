@@ -20,15 +20,10 @@ test_{{ cookiecutter.repo_name }}
 Tests for `{{ cookiecutter.repo_name }}` module.
 """
 
-import testtools
-
-import {{ cookiecutter.repo_name }}
+from {{ cookiecutter.repo_name }} import tests
 
 
-class Test{{ cookiecutter.repo_name|capitalize }}(testtools.TestCase):
-
-    def setUp(self):
-        super(Test{{ cookiecutter.repo_name|capitalize }}, self).setUp()
+class Test{{ cookiecutter.repo_name|capitalize }}(tests.TestCase):
 
     def test_something(self):
         pass
