@@ -6,6 +6,7 @@ Cookiecutter template for an OpenStack project. See https://github.com/audreyr/c
 
 * Free software: Apache license
 * pbr_: Set up to use Python Build Reasonableness
+* hacking_: Enforces the OpenStack Hacking Guidelines
 * OpenStack-Infra_: Ready for OpenStack Continuous Integration testing
 * Tox_ testing: Setup to easily test for Python 2.6, 2.7, 3.3
 * Sphinx_ docs: Documentation ready for generation and publication
@@ -26,3 +27,4 @@ Then:
 .. _OpenStack-Infra: http://ci.openstack.org
 .. _Tox: http://testrun.org/tox/
 .. _Sphinx: http://sphinx-doc.org/
+.. _hacking: https://git.openstack.org/cgit/openstack-dev/hacking/plain/HACKING.rst
