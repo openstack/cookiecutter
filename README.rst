@@ -17,7 +17,7 @@ Usage
 
 Generate a Python package project::
 
-    cookiecutter https://git.openstack.org/openstack-dev/cookiecutter-openstack.git
+    cookiecutter https://git.openstack.org/openstack-dev/cookiecutter.git
 
 Then:
 
