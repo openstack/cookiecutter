@@ -26,7 +26,7 @@ Then:
 
 .. _pbr: http://docs.openstack.org/developer/pbr
 .. _OpenStack-Infra: http://ci.openstack.org
-.. _testr: https://testrepository.readthedocs.org/
+.. _testrepository: https://testrepository.readthedocs.org/
 .. _Tox: http://testrun.org/tox/
 .. _Sphinx: http://sphinx-doc.org/
 .. _hacking: https://git.openstack.org/cgit/openstack-dev/hacking/plain/HACKING.rst
