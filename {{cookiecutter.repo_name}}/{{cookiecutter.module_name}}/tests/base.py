@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-# vim: tabstop=4 shiftwidth=4 softtabstop=4
 
 # Copyright 2010-2011 OpenStack Foundation
 # Copyright (c) 2013 Hewlett-Packard Development Company, L.P.
