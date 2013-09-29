@@ -4,4 +4,4 @@ Usage
 
 To use {{ cookiecutter.repo_name }} in a project::
 
-	import {{ cookiecutter.repo_name }}
+	import {{ cookiecutter.module_name }}
