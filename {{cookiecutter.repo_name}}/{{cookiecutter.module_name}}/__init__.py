@@ -17,4 +17,4 @@ import pbr.version
 
 
 __version__ = pbr.version.VersionInfo(
-    '{{cookiecutter.repo_name}}').version_string()
+    '{{cookiecutter.module_name}}').version_string()
