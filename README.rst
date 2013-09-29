@@ -19,6 +19,14 @@ Generate a Python package project::
 
     cookiecutter https://git.openstack.org/openstack-dev/cookiecutter.git
 
+OpenStack projects require a working git repo for pbr to work, so you need to
+init a repo and commit to it before doing anything else::
+
+    cd $repo_name
+    git init
+    git add .
+    git commit -a
+
 Then:
 
 * Add the project to the OpenStack Infrastructure
