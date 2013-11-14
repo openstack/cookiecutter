@@ -20,7 +20,7 @@ import os
 import fixtures
 import testtools
 
-_TRUE_VALUES = ('true', '1', 'yes')
+_TRUE_VALUES = ('True', 'true', '1', 'yes')
 
 
 class TestCase(testtools.TestCase):
