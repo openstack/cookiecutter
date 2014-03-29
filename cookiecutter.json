@@ -2,5 +2,6 @@
 	"module_name": "replace with the name of the python module",
 	"repo_group": "openstack",
 	"repo_name": "replace with the name for the git repo",
+	"launchpad_project": "replace with the name of the project on launchpad",
 	"project_short_description": "OpenStack Boilerplate contains all the boilerplate you need to create an OpenStack package."
 }
