@@ -1,7 +1,7 @@
 [run]
 branch = True
 source = {{cookiecutter.module_name}}
-omit = {{cookiecutter.module_name}}/tests/*,{{cookiecutter.module_name}}/openstack/*
+omit = {{cookiecutter.module_name}}/openstack/*
 
 [report]
 ignore-errors = True
