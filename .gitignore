@@ -8,6 +8,7 @@
 *.egg-info
 dist
 build
+.eggs
 eggs
 parts
 bin
@@ -25,6 +26,8 @@ pip-log.txt
 .coverage
 .tox
 nosetests.xml
+.testrepository
+.venv
 
 # Translations
 *.mo
@@ -39,7 +42,16 @@ output/*.html
 output/*/index.html
 
 # Sphinx
-docs/_build
+doc/build
+
+# pbr generates these
+AUTHORS
+ChangeLog
+
+# Editors
+*~
+.*.swp
+.*sw?
 
 # Cookiecutter
 output/
