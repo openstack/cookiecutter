@@ -4,4 +4,4 @@ source = {{cookiecutter.module_name}}
 omit = {{cookiecutter.module_name}}/openstack/*
 
 [report]
-ignore-errors = True
+ignore_errors = True
