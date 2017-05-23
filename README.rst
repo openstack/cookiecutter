@@ -15,6 +15,10 @@ Cookiecutter template for an OpenStack project. See https://github.com/audreyr/c
 Usage
 -----
 
+Install cookiecutter::
+
+    pip install cookiecutter
+
 Generate a Python package project::
 
     cookiecutter https://git.openstack.org/openstack-dev/cookiecutter.git
