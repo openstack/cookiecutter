@@ -12,9 +12,9 @@ Contents:
    :maxdepth: 2
 
    readme
-   installation
-   usage
-   contributing
+   install/index
+   library/index
+   contributor/index
 
 Indices and tables
 ==================
