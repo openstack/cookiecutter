@@ -15,8 +15,6 @@
 import os
 import sys
 
-import openstackdocstheme
-
 sys.path.insert(0, os.path.abspath('../..'))
 # -- General configuration ----------------------------------------------------
 
@@ -24,6 +22,7 @@ sys.path.insert(0, os.path.abspath('../..'))
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = [
     'sphinx.ext.autodoc',
+    'openstackdocstheme',
     #'sphinx.ext.intersphinx',
 ]
 
@@ -39,7 +38,12 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'{{cookiecutter.repo_name}}'
-copyright = u'2016, OpenStack Foundation'
+copyright = u'2017, OpenStack Foundation'
+
+# openstackdocstheme options
+repository_name = '{{cookiecutter.repo_group}}/{cookiecutter.repo_name}}'
+bug_project = '{{cookiecutter.launchpad_project}}'
+bug_tag = ''
 
 # If true, '()' will be appended to :func: etc. cross-reference text.
 add_function_parentheses = True
@@ -59,8 +63,6 @@ pygments_style = 'sphinx'
 # html_theme = '_theme'
 # html_static_path = ['static']
 html_theme = 'openstackdocs'
-
-html_theme_path = [openstackdocstheme.get_html_theme_path()]
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = '%sdoc' % project
