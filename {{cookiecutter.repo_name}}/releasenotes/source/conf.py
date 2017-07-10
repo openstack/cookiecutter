@@ -53,10 +53,10 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'{{cookiecutter.module_name}} Release Notes'
-copyright = u'2016, OpenStack Foundation'
+copyright = u'2017, OpenStack Developers'
 
 # openstackdocstheme options
-repository_name = '{{cookiecutter.repo_group}}/{cookiecutter.repo_name}}'
+repository_name = '{{cookiecutter.repo_group}}/{{cookiecutter.repo_name}}'
 bug_project = '{{cookiecutter.launchpad_project}}'
 bug_tag = ''
 
@@ -211,7 +211,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    ('index', '{{cookiecutter.module_name}}ReleaseNotes.tex', u'{{cookiecutter.module_name}}  Release Notes Documentation',
+    ('index', '{{cookiecutter.module_name}}ReleaseNotes.tex',
+     u'{{cookiecutter.module_name}}  Release Notes Documentation',
      u'OpenStack Foundation', 'manual'),
 ]
 
@@ -241,7 +242,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', '{{cookiecutter.module_name}}rereleasenotes', u'{{cookiecutter.module_name}}  Release Notes Documentation',
+    ('index', '{{cookiecutter.module_name}}rereleasenotes',
+     u'{{cookiecutter.module_name}}  Release Notes Documentation',
      [u'OpenStack Foundation'], 1)
 ]
 
