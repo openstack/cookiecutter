@@ -42,8 +42,9 @@ copyright = u'2017, OpenStack Developers'
 
 # openstackdocstheme options
 repository_name = '{{cookiecutter.repo_group}}/{{cookiecutter.repo_name}}'
-bug_project = '{{cookiecutter.launchpad_project}}'
+bug_project = '{{cookiecutter.bug_project}}'
 bug_tag = ''
+html_last_updated_fmt = '%Y-%m-%d %H:%M'
 
 # If true, '()' will be appended to :func: etc. cross-reference text.
 add_function_parentheses = True

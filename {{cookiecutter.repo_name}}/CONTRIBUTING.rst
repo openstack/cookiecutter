@@ -12,6 +12,10 @@ submitted for review via the Gerrit tool:
 
 Pull requests submitted through GitHub will be ignored.
 
-Bugs should be filed on Launchpad, not GitHub:
+Bugs should be filed on {{ cookiebutter.bug_tracker }}
 
-   https://bugs.launchpad.net/{{ cookiecutter.launchpad_project }}
+{%- if cookiecutter.bug_tracker == 'Launchpad' -%}
+   https://bugs.launchpad.net/{{ cookiecutter.bug_project }}
+{%- elif cookiecutter.bug_tracker == 'Storyboard' -%}
+   https://storyboard.openstack.org/#!/project/{{ cookiecutter.bug_project }}
+{%- endif -%}
