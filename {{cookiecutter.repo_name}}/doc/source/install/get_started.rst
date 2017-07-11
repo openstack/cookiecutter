@@ -7,18 +7,10 @@
 {{cookiecutter.service}}{{header_text}}
 {{ set_header_markup(header_text|length) }}
 {%- endmacro -%}
-{{ set_header(" service installation guide") }}
+{{ set_header(" service overview") }}
+The {{cookiecutter.service}} service provides...
 
-.. toctree::
-   :maxdepth: 2
+The {{cookiecutter.service}} service consists of the following components:
 
-   get_started.rst
-   install.rst
-   verify.rst
-   next-steps.rst
-
-The {{cookiecutter.service}} service ({{cookiecutter.module_name}}) provides...
-
-This chapter assumes a working setup of OpenStack following the
-`OpenStack Installation Tutorial
-<https://docs.openstack.org/project-install-guide/ocata/>`_.
+``{{cookiecutter.module_name}}-api`` service
+  Accepts and responds to end user compute API calls...

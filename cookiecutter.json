@@ -1,5 +1,6 @@
 {
 	"module_name": "replace with the name of the python module",
+	"service": "replace with the service it implements",
 	"repo_group": "openstack",
 	"repo_name": "replace with the name for the git repo",
 	"launchpad_project": "replace with the name of the project on launchpad",
