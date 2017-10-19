@@ -9,9 +9,9 @@ Please fill here a long description which must be at least 3 lines wrapped on
 Note that this is a hard requirement.
 
 * Free software: Apache license
-* Documentation: http://docs.openstack.org/developer/{{ cookiecutter.repo_name }}
-* Source: http://git.openstack.org/cgit/{{cookiecutter.repo_group}}/{{ cookiecutter.repo_name }}
-* Bugs: http://bugs.launchpad.net/{{cookiecutter.launchpad_project}}
+* Documentation: https://docs.openstack.org/{{ cookiecutter.repo_name }}/latest
+* Source: https://git.openstack.org/cgit/{{cookiecutter.repo_group}}/{{ cookiecutter.repo_name }}
+* Bugs: https://bugs.launchpad.net/{{cookiecutter.launchpad_project}}
 
 Features
 --------
