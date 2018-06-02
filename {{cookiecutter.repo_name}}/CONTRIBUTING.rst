@@ -12,7 +12,7 @@ submitted for review via the Gerrit tool:
 
 Pull requests submitted through GitHub will be ignored.
 
-Bugs should be filed on {{ cookiebutter.bug_tracker }}
+Bugs should be filed on {{ cookiecutter.bug_tracker }}
 
 {%- if cookiecutter.bug_tracker == 'Launchpad' -%}
    https://bugs.launchpad.net/{{ cookiecutter.bug_project }}
