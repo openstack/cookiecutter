@@ -38,9 +38,9 @@ Then:
 * Add the project to the OpenStack Infrastructure
 
 
-.. _pbr: http://docs.openstack.org/developer/pbr
+.. _pbr: https://docs.openstack.org/pbr/latest/
 .. _OpenStack-Infra: http://docs.openstack.org/infra/system-config
 .. _stestr: https://stestr.readthedocs.io/
-.. _Tox: http://testrun.org/tox/
-.. _Sphinx: http://sphinx-doc.org/
+.. _Tox: https://tox.readthedocs.io/en/latest/
+.. _Sphinx: http://www.sphinx-doc.org/en/master/
 .. _hacking: https://git.openstack.org/cgit/openstack-dev/hacking/plain/HACKING.rst
