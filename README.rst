@@ -43,4 +43,4 @@ Then:
 .. _stestr: https://stestr.readthedocs.io/
 .. _Tox: https://tox.readthedocs.io/en/latest/
 .. _Sphinx: http://www.sphinx-doc.org/en/master/
-.. _hacking: https://git.openstack.org/cgit/openstack-dev/hacking/plain/HACKING.rst
+.. _hacking: https://opendev.org/openstack/hacking/

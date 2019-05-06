@@ -10,7 +10,7 @@ Note that this is a hard requirement.
 
 * Free software: Apache license
 * Documentation: https://docs.openstack.org/{{ cookiecutter.repo_name }}/latest
-* Source: https://git.openstack.org/cgit/{{cookiecutter.repo_group}}/{{ cookiecutter.repo_name }}
+* Source: https://opendev.org/{{cookiecutter.repo_group}}/{{ cookiecutter.repo_name }}
 {%- if cookiecutter.bug_tracker == 'Launchpad' -%}
 * Bugs: https://bugs.launchpad.net/{{ cookiecutter.bug_project }}
 {%- elif cookiecutter.bug_tracker == 'Storyboard' -%}
