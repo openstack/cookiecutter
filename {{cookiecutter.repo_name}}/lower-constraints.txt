@@ -1,0 +1,4 @@
+# You need to rewrite this file with the project's lower constraints.
+# This can be done using the following script:
+#
+# https://opendev.org/openstack/requirements/src/branch/master/tools/fix-lower-constraints.py
