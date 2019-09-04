@@ -21,7 +21,7 @@ Install cookiecutter::
 
 Generate a Python package project::
 
-    cookiecutter https://git.openstack.org/openstack-dev/cookiecutter.git
+    cookiecutter https://opendev.org/openstack/cookiecutter.git
 
 OpenStack projects require a working git repo for pbr to work, on newer
 versions of cookiecutter (>= 0.7.0 released 2013-11-09) this initial commit will
@@ -39,8 +39,8 @@ Then:
 
 
 .. _pbr: https://docs.openstack.org/pbr/latest/
-.. _OpenStack-Infra: http://docs.openstack.org/infra/system-config
+.. _OpenStack-Infra: https://docs.openstack.org/infra/system-config
 .. _stestr: https://stestr.readthedocs.io/
 .. _Tox: https://tox.readthedocs.io/en/latest/
-.. _Sphinx: http://www.sphinx-doc.org/en/master/
+.. _Sphinx: https://www.sphinx-doc.org/en/master/
 .. _hacking: https://opendev.org/openstack/hacking/
