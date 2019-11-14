@@ -9,7 +9,7 @@ Cookiecutter template for an OpenStack project. See https://github.com/audreyr/c
 * hacking_: Enforces the OpenStack Hacking Guidelines
 * stestr_: Runs tests using stestr
 * OpenStack-Infra_: Ready for OpenStack Continuous Integration testing
-* Tox_ testing: Setup to easily test for Python 2.7, 3.5
+* Tox_ testing: Setup to easily test for Python 3.7
 * Sphinx_ docs: Documentation ready for generation and publication
 
 Usage
