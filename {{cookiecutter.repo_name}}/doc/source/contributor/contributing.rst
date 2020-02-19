@@ -53,8 +53,14 @@ Reporting a Bug
 .. Pretty self explanatory section, link directly to where people should report
    bugs for your project.
 
-You found an issue and want to make sure we are aware of it? You can do so
-$HERE.
+You found an issue and want to make sure we are aware of it? You can do so on
+{% if cookiecutter.bug_tracker == 'Launchpad' -%}
+`Launchpad
+<https://bugs.launchpad.net/{{ cookiecutter.bug_project }}>`_.
+{%- elif cookiecutter.bug_tracker == 'Storyboard' -%}
+`Storyboard
+<https://storyboard.openstack.org/#!/project/{{ cookiecutter.bug_project }}>`_.
+{%- endif %}
 
 Getting Your Patch Merged
 ~~~~~~~~~~~~~~~~~~~~~~~~~
