@@ -37,11 +37,11 @@ Task Tracking
 
 We track our tasks in {{ cookiecutter.bug_tracker }}
 
-{%- if cookiecutter.bug_tracker == 'Launchpad' -%}
+{% if cookiecutter.bug_tracker == 'Launchpad' -%}
    https://bugs.launchpad.net/{{ cookiecutter.bug_project }}
 {%- elif cookiecutter.bug_tracker == 'Storyboard' -%}
    https://storyboard.openstack.org/#!/project/{{ cookiecutter.bug_project }}
-{%- endif -%}
+{%- endif %}
 
 If you're looking for some smaller, easier work item to pick up and get started
 on, search for the 'low-hanging-fruit' tag.

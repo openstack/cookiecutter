@@ -1,6 +1,6 @@
 The source repository for this project can be found at:
 
-  https://opendev.org/{{ cookiecutter.repo_group }}/{{ cookiecutter.repo_name }}
+   https://opendev.org/{{ cookiecutter.repo_group }}/{{ cookiecutter.repo_name }}
 
 Pull requests submitted through GitHub are not monitored.
 
@@ -11,13 +11,13 @@ to set up and use Gerrit:
 
 Bugs should be filed on {{ cookiecutter.bug_tracker }}:
 
-{%- if cookiecutter.bug_tracker == 'Launchpad' -%}
+{% if cookiecutter.bug_tracker == 'Launchpad' -%}
    https://bugs.launchpad.net/{{ cookiecutter.bug_project }}
 {%- elif cookiecutter.bug_tracker == 'Storyboard' -%}
    https://storyboard.openstack.org/#!/project/{{ cookiecutter.bug_project }}
-{%- endif -%}
+{%- endif %}
 
 For more specific information about contributing to this repository, see the
 {{ cookiecutter.service }} contributor guide:
 
-    https://docs.openstack.org/{{ cookiecutter.repo_name }}/latest/contributor/contributing.html
+   https://docs.openstack.org/{{ cookiecutter.repo_name }}/latest/contributor/contributing.html
