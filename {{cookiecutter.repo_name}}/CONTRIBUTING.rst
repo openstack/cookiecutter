@@ -10,13 +10,11 @@ to set up and use Gerrit:
    https://docs.openstack.org/contributors/code-and-documentation/quick-start.html
 
 Bugs should be filed on {{ cookiecutter.bug_tracker }}:
-
-{% if cookiecutter.bug_tracker == 'Launchpad' -%}
+{% if cookiecutter.bug_tracker == 'Launchpad' %}
    https://bugs.launchpad.net/{{ cookiecutter.bug_project }}
-{%- elif cookiecutter.bug_tracker == 'Storyboard' -%}
+{% elif cookiecutter.bug_tracker == 'Storyboard' %}
    https://storyboard.openstack.org/#!/project/{{ cookiecutter.bug_project }}
-{%- endif %}
-
+{% endif %}
 For more specific information about contributing to this repository, see the
 {{ cookiecutter.service }} contributor guide:
 
