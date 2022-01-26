@@ -52,8 +52,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'{{cookiecutter.module_name}} Release Notes'
-copyright = u'2017, OpenStack Developers'
+project = '{{cookiecutter.module_name}} Release Notes'
+copyright = '2022, OpenStack Developers'
 
 # openstackdocstheme options
 openstackdocs_repo_name = '{{cookiecutter.repo_group}}/{{cookiecutter.repo_name}}'
@@ -209,8 +209,8 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     ('index', '{{cookiecutter.module_name}}ReleaseNotes.tex',
-     u'{{cookiecutter.module_name}}  Release Notes Documentation',
-     u'OpenStack Foundation', 'manual'),
+     '{{cookiecutter.module_name}}  Release Notes Documentation',
+     'OpenStack Foundation', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -240,8 +240,8 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', '{{cookiecutter.module_name}}rereleasenotes',
-     u'{{cookiecutter.module_name}}  Release Notes Documentation',
-     [u'OpenStack Foundation'], 1)
+     '{{cookiecutter.module_name}}  Release Notes Documentation',
+     ['OpenStack Foundation'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -255,8 +255,8 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     ('index', '{{cookiecutter.module_name}} ReleaseNotes',
-     u'{{cookiecutter.module_name}} Release Notes Documentation',
-     u'OpenStack Foundation', '{{cookiecutter.module_name}}ReleaseNotes',
+     '{{cookiecutter.module_name}} Release Notes Documentation',
+     'OpenStack Foundation', '{{cookiecutter.module_name}}ReleaseNotes',
      'One line description of project.',
      'Miscellaneous'),
 ]

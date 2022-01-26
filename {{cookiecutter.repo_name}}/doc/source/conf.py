@@ -37,8 +37,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'{{cookiecutter.repo_name}}'
-copyright = u'2017, OpenStack Developers'
+project = '{{cookiecutter.repo_name}}'
+copyright = '2022, OpenStack Developers'
 
 # openstackdocstheme options
 openstackdocs_repo_name = '{{cookiecutter.repo_group}}/{{cookiecutter.repo_name}}'
@@ -73,8 +73,8 @@ htmlhelp_basename = '%sdoc' % project
 latex_documents = [
     ('index',
      '%s.tex' % project,
-     u'%s Documentation' % project,
-     u'OpenStack Developers', 'manual'),
+     '%s Documentation' % project,
+     'OpenStack Developers', 'manual'),
 ]
 
 # Example configuration for intersphinx: refer to the Python standard library.
